@@ -1,0 +1,91 @@
+.contact {
+  background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%);
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.contact-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(142, 214, 255, 0.1);
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(0, 168, 232, 0.15);
+  border-color: #8ED6FF;
+}
+
+.contact-icon {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-card h3 {
+  font-size: 1.1rem;
+  color: var(--gray);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.contact-info {
+  font-size: 1.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #1E90FF, #0077BE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 10px;
+}
+
+.contact-desc {
+  color: var(--gray);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.contact-cta {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.contact-cta .btn-primary {
+  display: inline-block;
+  padding: 18px 50px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-cta .btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 60px rgba(0, 168, 232, 0.35);
+}
+
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .contact-info {
+    font-size: 1.3rem;
+  }
+}

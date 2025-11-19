@@ -34,7 +34,7 @@ const Services = () => {
     },
     {
       image: Img4,
-      title: 'Vệ Sinh - Bảo Trì',
+      title: 'Chính sách bảo hành & bảo dưỡng',
       desc: 'Vệ sinh bảo dưỡng định kỳ, cập nhật phần mềm, tối ưu hiệu suất',
       features: ['Vệ sinh chuyên sâu', 'Cập nhật firmware', 'Tư vấn miễn phí']
     }
@@ -94,7 +94,7 @@ const Services = () => {
             Dịch Vụ <span className="gradient-text">Toàn Diện</span>
           </h2>
           <p className="section-subtitle">
-            Giải pháp sửa chữa tivi chuyên nghiệp với chất lượng cao nhất
+            Đơn vị cung cấp dịch vụ sửa chữa tivi chuyên nghiệp cho quý khách hàng với mức giá hợp lí
           </p>
         </div>
 

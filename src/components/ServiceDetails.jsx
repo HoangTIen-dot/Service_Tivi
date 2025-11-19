@@ -43,7 +43,7 @@ const ServiceDetails = () => {
         'Khi nhận được yêu cầu sửa TV tại nhà của quý khách. Chúng tôi sẽ cử nhân viên kỹ thuật đến kiểm tra tivi nhà bạn',
         'Kỹ thuật viên báo giá chi phí sửa tivi tại nhà',
         'Khách hàng thống nhất và đồng ý sử dụng dịch vụ sửa chữa TV',
-        'Kỹ thuật tiến hành sửa tivi Nguyễn Kim tại nhà và vệ sinh tivi nếu cần',
+        'Kỹ thuật tiến hành sửa tivi tại nhà và vệ sinh tivi nếu cần',
         'Bảo hành và hỗ trợ khách hàng sau khi sử dụng dịch vụ sửa chữa tivi tại nhà'
       ]
     }

@@ -15,7 +15,7 @@ const Footer = () => {
               <li><a href="#services">Sửa Tivi LED/Smart TV/ QLED 2K/4K...</a></li>
               <li><a href="#services">Thay Màn Hình</a></li>
               <li><a href="#services">Khắc Phục Lỗi</a></li>
-              <li><a href="#services">Bảo hành & Bảo dưỡng</a></li>
+              <li><a href="#services">Bảo hành </a></li>
             </ul>
           </div>
           <div className="footer-col">

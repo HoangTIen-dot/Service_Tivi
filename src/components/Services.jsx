@@ -34,7 +34,7 @@ const Services = () => {
     },
     {
       image: Img4,
-      title: 'Chính sách bảo hành & bảo dưỡng',
+      title: 'Bảo hành ',
       desc: 'Vệ sinh bảo dưỡng định kỳ, cập nhật phần mềm, tối ưu hiệu suất',
       features: ['Vệ sinh chuyên sâu', 'Cập nhật firmware', 'Tư vấn miễn phí']
     }

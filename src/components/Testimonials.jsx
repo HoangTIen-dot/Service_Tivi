@@ -5,6 +5,11 @@ import './Testimonials.css'
 import Customer1 from '../assets/Anh20.png'
 import Customer2 from '../assets/Anh22.png'
 import Customer3 from '../assets/Anh21.png'
+import Customer4 from '../assets/Anh29.png'
+import Customer5 from '../assets/Anh27.png'
+import Customer6 from '../assets/Anh30.png'
+import Customer7 from '../assets/Anh28.png'
+import Customer8 from '../assets/Anh31.png'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -32,6 +37,41 @@ const Testimonials = () => {
       location: 'Ô Môn, Cần Thơ',
       image: Customer3,
       text: 'Tivi LG nhà tôi không lên nguồn, gọi hotline được hỗ trợ tư vấn nhiệt tình. Kỹ thuật viên đến kiểm tra và sửa ngay trong ngày. Bảo hành 6 tháng rất yên tâm!',
+      rating: 5
+    },
+    {
+      name: 'Chị Ngọc Lan',
+      location: 'Bình Thủy, Cần Thơ',
+      image: Customer4,
+      text: 'Tivi Sony của tôi bị hỏng mainboard, tưởng phải mua mới nhưng được anh kỹ thuật tư vấn sửa chữa tiết kiệm chi phí. Sửa xong chạy êm ru, bảo hành dài hạn. Cảm ơn nhiều!',
+      rating: 5
+    },
+    {
+      name: 'Anh Quốc Dũng',
+      location: 'Phong Điền, Cần Thơ',
+      image: Customer5,
+      text: 'Mình ở xa trung tâm nhưng vẫn được hỗ trợ nhiệt tình. Tivi TCL bị sọc màn hình, anh thợ đến tận nhà sửa nhanh chóng. Giá rẻ hơn mấy chỗ khác mà chất lượng tốt hơn!',
+      rating: 5
+    },
+    {
+      name: 'Chị Mai Phương',
+      location: 'Thốt Nốt, Cần Thơ',
+      image: Customer6,
+      text: 'Dịch vụ bảo trì định kỳ rất chu đáo. Anh kỹ thuật vệ sinh, kiểm tra kỹ lưỡng từng chi tiết. Tivi giờ chạy mượt mà hơn hẳn. Sẽ tiếp tục sử dụng dịch vụ!',
+      rating: 5
+    },
+    {
+      name: 'Anh Hoàng Long',
+      location: 'Ninh Kiều, Cần Thơ',
+      image: Customer7,
+      text: 'Tivi Samsung 75 inch của showroom bị lỗi phần mềm, anh kỹ thuật đến xử lý cực kỳ chuyên nghiệp. Không ảnh hưởng hoạt động kinh doanh. Đội ngũ rất uy tín!',
+      rating: 5
+    },
+    {
+      name: 'Chị Hồng Nhung',
+      location: 'Cái Răng, Cần Thơ',
+      image: Customer8,
+      text: 'Lần đầu sử dụng dịch vụ sửa tivi qua mạng, lo lắng lắm. Nhưng thật sự rất hài lòng! Tư vấn tận tình, sửa nhanh, giá rẻ. Tivi LG 43 inch của tôi giờ hoạt động hoàn hảo.',
       rating: 5
     }
   ]

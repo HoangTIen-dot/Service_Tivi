@@ -3,7 +3,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import './Gallery.css'
 import Img1 from '../assets/Anh4.jpg'
-import Img2 from '../assets/Anh14.jpg'
+import Img2 from '../assets/Anh24.jpg'
 import Img3 from '../assets/Anh2.jpg'
 import Img4 from '../assets/Anh3.jpg'
 import Img5 from '../assets/Anh19.jpg'
@@ -29,7 +29,7 @@ const Gallery = () => {
     { src: Img5, title: 'Thay Đèn LED' },
     { src: Img6, title: 'Dịch Vụ Tận Nhà' },
     { src: Img7, title: 'Linh Kiện Chính Hãng' },
-    { src: Img8, title: 'Vệ Sinh Bảo Trì' },
+    { src: Img8, title: 'Kiểm tra sửa chữa tại nhà' },
     { src: Img9, title: 'Sửa Smart TV' },
     { src: Img10, title: 'Thay Bo Mạch' },
     { src: Img11, title: 'Khắc Phục Lỗi' },

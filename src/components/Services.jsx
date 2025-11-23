@@ -2,8 +2,8 @@ import { useRef, useLayoutEffect } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import './Services.css'
-import Img1 from '../assets/Anh16.jpg'
-import Img2 from '../assets/Anh15.jpg'
+import Img1 from '../assets/Anh23.jpg'
+import Img2 from '../assets/Anh26.jpg'
 import Img3 from '../assets/Anh7.jpg'
 import Img4 from '../assets/Anh5.jpg'
 
@@ -24,7 +24,7 @@ const Services = () => {
       image: Img2,
       title: 'Thay Đèn - Màn Hình',
       desc: 'Chuyên thay đèn nền LED, màn hình tivi với giá cạnh tranh, thời gian nhanh chóng',
-      features: ['Đèn LED chất lượng', 'Đèn màn hình zin', 'Giá rõ ràng', 'Thay màn hình']
+      features: ['Đèn LED zin hãng', 'Đèn màn hình zin', 'Giá rõ ràng', 'Thay màn hình']
     },
     {
       image: Img3,
@@ -35,8 +35,8 @@ const Services = () => {
     {
       image: Img4,
       title: 'Bảo hành ',
-      desc: 'Vệ sinh bảo dưỡng định kỳ, cập nhật phần mềm, tối ưu hiệu suất',
-      features: ['Vệ sinh chuyên sâu', 'Cập nhật firmware', 'Tư vấn miễn phí']
+      desc: 'Cập nhật phần mềm, chế độ bảo hành chuyên sâu, tối ưu hiệu suất',
+      features: ['Bảo hành chuyên sâu', 'Cập nhật firmware', 'Tư vấn miễn phí']
     }
   ]
 
